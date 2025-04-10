@@ -10,16 +10,16 @@ This repository provides several predefined traffic scenarios for testing and de
 
 ### 1. `backward_wave_example()`
 - Simulates a backward-propagating wave.
-- Parameters: low congestion (ρ₀ ≈ 30), single Gaussian bump.
+- Parameters: low congestion $(\rho_0 \approx 30)$, single Gaussian bump.
 
 ### 2. `gaussian_density_example()`
 - Base case with a Gaussian bump in density.
-- ρ₀ ≈ 30, peak added at center.
+- $\rho_0 \approx 30$, peak added at center.
 
 ### 3. `with_disturbance()`
 - Adds a disturbance during the simulation at defined extent in space and time.
 - Based on `gaussian_density_example()`.
-- Can reduce jam density or decrease density.
+- Can reduce jam density ($\rho_{jam}$) or decrease density.
 
 ### 4. `numerical_oscilations()`
 - Tuned to demonstrate numerical instabilities.
