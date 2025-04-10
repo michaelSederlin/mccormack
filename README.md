@@ -4,7 +4,7 @@ Implements the McCormack Scheme for solving a PW type traffic flow model
 
 This repository provides several predefined traffic scenarios for testing and demonstration of numerical simulation methods (e.g., McCormack scheme). Each scenario returns an initial density (`rho`), velocity (`v0`), and simulation parameters (`params`).
 
-Please notify me about any bugs or other mistakes.
+Please notify me about any bugs and/or other mistakes.
 
 ---
 
