@@ -1,6 +1,6 @@
 # McCormack 
 
-Implements the McCormack Scheme for solving a PW type traffic flow model
+Implements the McCormack Scheme for solving a PW type traffic flow model. Created for PhD course in Traffic Flow Theory (FAF3183) given at KTH spring of 2025.
 
 This repository provides several predefined traffic scenarios for testing and demonstration of numerical simulation methods (e.g., McCormack scheme). Each scenario returns an initial density (`rho`), velocity (`v0`), and simulation parameters (`params`).
 
